@@ -7,14 +7,19 @@ A stunning, interactive website showcasing the top 10 most powerful weapons in E
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+🌐 **[Live Demo](https://top-10-elden-ring-weapons.web.app)** | 🎮 **[Play Memory Game](https://top-10-elden-ring-weapons.web.app/game.html)**
+
+
 ## ✨ Features
 
 - **🎨 Premium Design**: Modern glassmorphism UI with vibrant gradients and smooth animations
+- **🎮 Interactive Memory Game**: Test your knowledge with a premium card-matching game featuring all 10 weapons
 - **📊 Detailed Stats**: Comprehensive weapon information including damage, weight, scaling, and requirements
 - **🎭 Interactive Modal**: Click any weapon to view detailed stats and lore in a beautiful modal
 - **✨ Particle Effects**: Floating particle animations for an immersive experience
 - **📱 Fully Responsive**: Perfect viewing experience on desktop, tablet, and mobile devices
 - **⚡ Fast & Lightweight**: Pure vanilla JavaScript - no frameworks, blazing fast performance
+
 
 ## 🎮 Weapons Featured
 
@@ -70,8 +75,11 @@ Then visit `http://localhost:8000` in your browser.
 ```
 top10elden1/
 ├── index.html          # Main HTML structure
-├── styles.css          # Styling and animations
+├── game.html           # Memory game page
+├── styles.css          # Main styling and animations
+├── game.css            # Game-specific styles
 ├── script.js           # Weapon data and interactions
+├── game.js             # Memory game logic
 ├── images/            # Weapon images
 │   ├── weapon1.png
 │   ├── weapon2.png
