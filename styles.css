@@ -204,6 +204,39 @@ body {
     margin: 0 auto;
 }
 
+.game-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.2) 0%, rgba(75, 0, 130, 0.2) 100%);
+    border: 2px solid rgba(138, 43, 226, 0.5);
+    border-radius: 12px;
+    color: #E0B0FF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(138, 43, 226, 0.2);
+}
+
+.game-link:hover {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.3) 0%, rgba(75, 0, 130, 0.3) 100%);
+    border-color: #E0B0FF;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(138, 43, 226, 0.4);
+}
+
+.game-link svg {
+    transition: transform 0.3s ease;
+}
+
+.game-link:hover svg {
+    transform: scale(1.1) rotate(5deg);
+}
+
+
 .scroll-indicator {
     position: absolute;
     bottom: var(--space-xl);
